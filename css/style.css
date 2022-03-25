@@ -81,7 +81,7 @@ hr {
 
 /*-----------------| SECTION |----------------*/
 
-h2 {
+section h2 {
     background-color: #FFB703;
     border: 2px solid #222222;
     border-radius: 1rem 1rem 0 0;
@@ -91,17 +91,346 @@ h2 {
     text-align: center;
 }
 
-section div {
+section > div {
     background-color: #D5D5D5;
     border: 2px solid #222222;
     border-radius: 0 0 1rem 1rem;
     border-top: none;
-    height: 50px;
-    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.colours > div {
+    display: inline-block;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 30%;
+}
+
+.colours > div > h3 {
+    background-color: #FFB703;
+    border: 2px solid #222222;
+    border-radius: 1rem 1rem 0 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+
+.colours > div > div {
+    border: 2px solid #222222;
+    border-top: none;
+    height: 12rem;
+    text-align: left;
+}
+
+/* ------------| BLUES AND GRAYS |------------ */
+
+.bluesandgrays {
+    border-radius: 0 0 10px 10px;
+}
+
+.bluesandgrays > span:nth-of-type(1) {
+    background-color: #3E78B2;
+    border: none;
+    border-radius: 0 0 0 8px;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.bluesandgrays > span:nth-of-type(2) {
+    background-color: #004BA8;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+.bluesandgrays > span:nth-of-type(3) {
+    background-color: #4A525A;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.bluesandgrays > span:nth-of-type(4) {
+    background-color: #24272B;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.bluesandgrays > span:nth-of-type(5) {
+    background-color: #07070A;
+    border: none;
+    border-radius: 0 0 8px 0;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+/* -----------------| BLUES |----------------- */
+
+.blues {
+    border-radius: 0 0 10px 10px;
+}
+
+.blues > span:nth-of-type(1) {
+    background-color: #03045E;
+    border: none;
+    border-radius: 0 0 0 8px;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.blues > span:nth-of-type(2) {
+    background-color: #0077B6;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+.blues > span:nth-of-type(3) {
+    background-color: #00B4D8;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.blues > span:nth-of-type(4) {
+    background-color: #90E0EF;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.blues > span:nth-of-type(5) {
+    background-color: #CAF0F8;
+    border: none;
+    border-radius: 0 0 8px 0;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+/* ----------------| VIVID |---------------- */
+
+.vivid {
+    border-radius: 0 0 10px 10px;
+}
+
+.vivid > span:nth-of-type(1) {
+    background-color: #DAD2D8;
+    border: none;
+    border-radius: 0 0 0 8px;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.vivid > span:nth-of-type(2) {
+    background-color: #143642;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+.vivid > span:nth-of-type(3) {
+    background-color: #0F8B8D;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.vivid > span:nth-of-type(4) {
+    background-color: #EC9A29;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.vivid > span:nth-of-type(5) {
+    background-color: #A8201A;
+    border: none;
+    border-radius: 0 0 8px 0;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+/* ------------| WARM AND COLD |------------ */
+
+.warmandcold {
+    border-radius: 0 0 10px 10px;
+}
+
+.warmandcold > span:nth-of-type(1) {
+    background-color: #8ECAE6;
+    border: none;
+    border-radius: 0 0 0 8px;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.warmandcold > span:nth-of-type(2) {
+    background-color: #219EBC;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+.warmandcold > span:nth-of-type(3) {
+    background-color: #023047;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.warmandcold > span:nth-of-type(4) {
+    background-color: #FFB703;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.warmandcold > span:nth-of-type(5) {
+    background-color: #FB8500;
+    border: none;
+    border-radius: 0 0 8px 0;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+/* -----------------| MIXED |----------------- */
+
+.mixed {
+    border-radius: 0 0 10px 10px;
+}
+
+.mixed > span:nth-of-type(1) {
+    background-color: #54494B;
+    border: none;
+    border-radius: 0 0 0 8px;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.mixed > span:nth-of-type(2) {
+    background-color: #7E8287;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+.mixed > span:nth-of-type(3) {
+    background-color: #9DA39A;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.mixed > span:nth-of-type(4) {
+    background-color: #B98389;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.mixed > span:nth-of-type(5) {
+    background-color: #DB2955;
+    border: none;
+    border-radius: 0 0 8px 0;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+/* ----------------| PASTEL |---------------- */
+
+.pastel {
+    border-radius: 0 0 10px 10px;
+}
+
+.pastel > span:nth-of-type(1) {
+    background-color: #0FA3B1;
+    border: none;
+    border-radius: 0 0 0 8px;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.pastel > span:nth-of-type(2) {
+    background-color: #B5E2FA;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+}
+
+.pastel > span:nth-of-type(3) {
+    background-color: #F9F7F3;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.pastel > span:nth-of-type(4) {
+    background-color: #EDDEA4;
+    border: none;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
+
+}
+
+.pastel > span:nth-of-type(5) {
+    background-color: #F7A072;
+    border: none;
+    border-radius: 0 0 8px 0;
+    display: inline-block;
+    height: 12rem;
+    width: 20%;
 }
 
 /*-----------------| FOOTER |-----------------*/
-
 footer {
     background-color: #023047;
     bottom: 0;
