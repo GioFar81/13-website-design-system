@@ -1,5 +1,9 @@
 /*------------| UNIVERSAL STYLES |------------*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #8ECAE6;
     width: 100%;
@@ -34,6 +38,7 @@ nav {
 
 li {
     display: inline;
+    padding: 0.1rem;
 }
 
 :target {
@@ -51,11 +56,13 @@ a {
 
 a:hover {
     color: #FFB703;
+    transition: color 0.2s ease-in-out;
 }
 
 a:active {
     color: #FB8500;
     text-decoration: underline;
+    transition: color 0.2s ease-in-out;
 }
 
 /*------------------| MAIN |------------------*/
@@ -85,7 +92,7 @@ h2 {
 }
 
 section div {
-    background-color: #E0E0E0;
+    background-color: #D5D5D5;
     border: 2px solid #222222;
     border-radius: 0 0 1rem 1rem;
     border-top: none;
